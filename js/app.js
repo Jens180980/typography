@@ -42,7 +42,7 @@ const galleryArr = [
 function creator() {
     for(let img of galleryArr){
         galleryContent +=
-        `<a href='' class="imageSelect" id=${img.id}><img src=${img.img} alt=""></a>`
+        `<a href='${img.img}'><img src=${img.img} alt=""></a>`
     }
     return galleryContent
 }
