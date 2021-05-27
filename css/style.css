@@ -189,73 +189,7 @@ footer form #submit{
 /******   MEDIA QUERIES   ****************************************/
 /*****************************************************************/
 
-@media screen and (max-width: 500px){
 
-/* TOP SECTION AND NAV */
-nav{
-    background-color: var(--navColor);
-    margin-top: -5px;
-    position: sticky;
-    top: 0;
-}
-nav ul{
-    display: block;
-}
-
-nav ul li:first-child{
-    margin-left: 0;
-}
-
-/* SECTIONS GENERAL SETTINGS */
-section h2{
-    font-size: 2.5rem;
-    padding-top: 2em;
-}
-section h3{
-    font-size: 1.5rem;
-}
-section p{
-    font-size: 1.2rem;
-}
-
-/* NAVIGATION TO TOP ICON */
-.navToTop{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.navToTop img{
-    width: 40%;
-}
-.empty{
-    position: relative;
-}
-
-/* TYPEFACES SECTION */
-#typefaces .twoCol, #typefaces figure{
-    grid-template-columns: 1fr;
-}
-#typefaces figure img{
-    width: 100%;
-}
-.threeCol{
-    grid-template-columns: 1fr;
-}
-
-/* KONSTRAST SECTION */
-#kontrast{
-    display: block;
-}
-#kontrast a{
-    position: static;
-}
-
-/* GALLERY SECTION */
-#gallery{
-    grid-template-columns: repeat(2, 1fr);
-}
-
-} /*MQ 500px ends ******************************************************************************/
 
 @media screen and (max-width: 1000px){
 
@@ -322,4 +256,72 @@ nav ul li:first-child{
     grid-template-columns: repeat(2, 1fr);
 }
 
-} /* MQ 1000px ends*/
+} /* MQ 1000px ends*****************************************************************************/
+
+@media screen and (max-width: 500px){
+
+    /* TOP SECTION AND NAV */
+    nav{
+        background-color: var(--navColor);
+        margin-top: -5px;
+        position: sticky;
+        top: 0;
+    }
+    nav ul{
+        display: block;
+    }
+    
+    nav ul li:first-child{
+        margin-left: 0;
+    }
+    
+    /* SECTIONS GENERAL SETTINGS */
+    section h2{
+        font-size: 2.5rem;
+        padding-top: 2em;
+    }
+    section h3{
+        font-size: 1.5rem;
+    }
+    section p{
+        font-size: 1.2rem;
+    }
+    
+    /* NAVIGATION TO TOP ICON */
+    .navToTop{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .navToTop img{
+        width: 40%;
+    }
+    .empty{
+        position: relative;
+    }
+    
+    /* TYPEFACES SECTION */
+    #typefaces .twoCol, #typefaces figure{
+        grid-template-columns: 1fr;
+    }
+    #typefaces figure img{
+        width: 100%;
+    }
+    .threeCol{
+        grid-template-columns: 1fr;
+    }
+    
+    /* KONSTRAST SECTION */
+    #kontrast{
+        display: block;
+    }
+    #kontrast a{
+        position: static;
+    }
+    
+    /* GALLERY SECTION */
+    #gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    } /*MQ 500px ends ******************************************************************************/
