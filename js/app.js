@@ -80,3 +80,12 @@ reset.addEventListener('click', function (){
     location.reload()
 })
 
+// BURGERMENU
+
+const menu = document.querySelector('#menubar')
+const dropdown = document.querySelector('nav ul')
+
+menu.addEventListener('click', function(){
+    dropdown.classList.toggle('toggle')
+})
+
